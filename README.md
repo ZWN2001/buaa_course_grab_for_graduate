@@ -95,3 +95,4 @@ if part["have_second_path"]: # 删除匹配到的一级列表的选课button
 
 - **无论如何配置`xk_btn_class_name`，尽量通过debug确保你的配置能够使得课程名与选课btn是对应的**
 - 尽量选择复制 full xpath 
+- 如果不涉及多个板块，可以使用`one_part_course.py`
