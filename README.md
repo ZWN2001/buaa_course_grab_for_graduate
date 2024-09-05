@@ -34,7 +34,7 @@
       {
         "base_path":"/html/body/div/article[2]/div[2]/div/ul/li[2]",
         "have_second_path": true,
-        "second_path": "//*[@id=\"tbody_9ed07c0c7d1340a188964c446ff98809\"]/tr[1]/td[10]/a",
+        "second_path": "/html/body/div/article[2]/div[2]/div/div/div[3]/div/table/tbody/tr[1]/td[10]/a",
         "xk_btn_class_name": "xkbtn",
         "refresh_btn_id": "fankc_queryBtn"
       }

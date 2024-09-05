@@ -18,6 +18,14 @@
     "login_confirm_xpath": "/html/body/div[2]/div/div[3]/div[2]/div[1]/div[7]/input",
     "course_part_xpath": [
       {
+        "base_path":"/html/body/div/article[2]/div[2]/div/ul/li[3]",
+        "have_second_path": true,
+        "second_path": "/html/body/div/article[2]/div[2]/div/div/div[3]/div/table/tbody/tr[1]/td[10]/a",
+        "xk_btn_class_name": "xkbtn",
+        "refresh_btn_id": "fakzkc_queryBtn",
+        "close_class_name": "zeromodal-close"
+      },
+      {
         "base_path":"/html/body/div/article[2]/div[2]/div/ul/li[2]",
         "have_second_path": false,
         "second_path": "",
