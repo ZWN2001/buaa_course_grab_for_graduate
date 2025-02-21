@@ -165,7 +165,7 @@ def course_grab():
                 write_log("login success")
             else:
                 browser.get(course_page)
-                time.sleep(0.1)
+                time.sleep(0.2)
                 course_part_xpath = xpaths["course_part_xpath"]
                 deal_part(browser=browser, part=course_part_xpath[0])
 

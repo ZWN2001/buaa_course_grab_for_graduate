@@ -1,5 +1,9 @@
 # 使用说明
 
+## 使用说明
+
+在`all_todo`中粘贴需要抢课的课程全称，配置账号密码，在`course_part_xpath`中列出需要抢课的课程所在的所有板块，启动脚本
+
 ## 关于配置文件
 
 打开`config.json`，配置如下：
@@ -25,7 +29,7 @@
     "login_confirm_xpath": "/html/body/div[2]/div/div[3]/div[2]/div[1]/div[7]/input",//统一认证确认登陆button路径
     "course_part_xpath": [//选择课程板块的xpath，如果选课涉及多个板块，依次列出
       {
-        "base_path":"/html/body/div/article[2]/div[2]/div/ul/li[2]",
+        "base_path":"/html/body/div/article[2]/div[2]/div/ul/li[2]",//不同板块比如思想政治理论课，基础及专业理论核心课
         "have_second_path": false,//可能存在二级列表的情况，如下图
         "second_path": "",
         "xk_btn_class_name": "xkbtn",
@@ -89,7 +93,7 @@ if part["have_second_path"]: # 删除匹配到的一级列表的选课button
             break
 ```
 
-`close_class_name`指的是二级列表的关闭的class name
+`close_class_name`指的是二级列表的“关闭”按钮的class name
 
 ## 提醒
 
